@@ -1,4 +1,4 @@
-to_do_list = ['hi','hii'] # This list will store to-do of user
+to_do_list = [] # This list will store to-do of user
 
 
 while True:
@@ -45,6 +45,7 @@ while True:
         print(f"Your updated to-do's: \n")
         for index, todo in enumerate(to_do_list, start=1):
             print(index, todo, f"\n ")
+
 
         ii=input("Press 'y' to proceed: ")
         if ii=='y':
