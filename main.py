@@ -31,7 +31,7 @@ while True:
         case 2:
             new_line = input("Enter new line to write: ")
             toWrite(new_line)
-            
+
 
         case _:
             print("\n Enter a valid choice")
